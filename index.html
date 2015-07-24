@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700|Satisfy&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <style>
+      body{
+        background: url('img/bg.png');
+        text-align: center;
+        padding-top: 2em;
+      }
+      h1{
+        font-family: "Amatic SC";
+        color: #ff8b78;
+        font-size: 6em;
+      }
+      h2{
+        font-family: "Satisfy";
+        margin-top: -50px;
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+      .container{
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .col-sm-3, .col-xs-6{
+        margin-bottom: 2em;
+      }
+      .img{
+        border-radius: 200px;
+        overflow: hidden;
+        border: 10px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        opacity: .8;
+        transition: opacity .2s ease;
+        cursor: pointer;
+        max-width: 200px;
+      }
+      .img img{
+        max-width: 100%;
+      }
+      .img:hover{
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <audio id="sound1" src="audio/7up.m4a"></audio>
+    <audio id="sound2" src="audio/dammit.m4a"></audio>
+    <audio id="sound3" src="audio/dammit2.m4a"></audio>
+    <audio id="sound4" src="audio/dangit1.m4a"></audio>
+    <audio id="sound5" src="audio/dino1.m4a"></audio>
+    <audio id="sound6" src="audio/dino2.m4a"></audio>
+    <audio id="sound7" src="audio/dontwanna.m4a"></audio>
+    <audio id="sound8" src="audio/stupid.m4a"></audio>
+    <audio id="sound9" src="audio/no.m4a"></audio>
+    <audio id="sound10" src="audio/lookathat.m4a"></audio>
+    <audio id="sound11" src="audio/soclose.m4a"></audio>
+    <audio id="sound12" src="audio/stupid2.m4a"></audio>
+
+    <div class="row" id="header">
+      <h1>BA</h1>
+      <h2>sounds</h2>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-1" onclick="document.getElementById('sound1').play()">
+            <img src="img/2.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-2" onclick="document.getElementById('sound2').play()">
+            <img src="img/3.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-3" onclick="document.getElementById('sound4').play()">
+            <img src="img/4.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-4" onclick="document.getElementById('sound3').play()">
+            <img src="img/5.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-5" onclick="document.getElementById('sound5').play()">
+            <img src="img/6.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-6" onclick="document.getElementById('sound6').play()">
+            <img src="img/7.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-7" onclick="document.getElementById('sound7').play()">
+            <img src="img/8.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-8" onclick="document.getElementById('sound8').play()">
+            <img src="img/9.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-9" onclick="document.getElementById('sound9').play()">
+            <img src="img/10.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-10" onclick="document.getElementById('sound10').play()">
+            <img src="img/11.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-11" onclick="document.getElementById('sound11').play()">
+            <img src="img/12.jpg">
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="img" id="img-12" onclick="document.getElementById('sound12').play()">
+            <img src="img/13.jpg">
+          </div>
+        </div>
+      </div>
+    <div>
+  </body>
+</html>
